@@ -232,7 +232,13 @@
 	<key>DeviceProperties</key>
 	<dict>
 		<key>Add</key>
-		<dict/>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>PP,PP_WorkLoadPolicyMask</key>
+				<string>0x01</string>
+			</dict>
+		</dict>
 		<key>Delete</key>
 		<dict/>
 	</dict>
@@ -1714,9 +1720,9 @@
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 alcid=11</string>
+				<string>alcid=11</string>
 				<key>csr-active-config</key>
-				<data>AwgAAA==</data>
+				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
@@ -1788,13 +1794,13 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>XXXXXXXX</string>
+			<string>F5K941104GUK3F7UE</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
-			<data>EjQSNBI0</data>
+			<data>5MY9pYjg</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1802,9 +1808,9 @@
 			<key>SystemProductName</key>
 			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>XXXXXXX</string>
+			<string>F5KZJ1YCP7QM</string>
 			<key>SystemUUID</key>
-			<string>XXXXXXXXXXX</string>
+			<string>81D009F8-3C40-4948-9D16-2681517F4874</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
