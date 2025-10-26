@@ -19,3 +19,6 @@ My Hackintosh files and info for my AMD PC
 Need to change `alcid=11` to have sound, however, larger `alcid` might work better.
 
 Need to set `PP,PP_WorkLoadPolicyMask` to `0x04` to stop GPU coil whine even with light usage. [1](https://www.reddit.com/r/hackintosh/comments/1126t9k/comment/j8judxi/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) [2](https://www.reddit.com/r/hackintosh/comments/reu78e/comment/hodzjox/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) [3](https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.Radeon.en.md)
+
+To use back panel audio jack, plug your audio into the one shown here, NOT in the RED port as in Windows!
+<img width="576" height="374" alt="Screenshot 2025-10-25 at 9 55 27 PM" src="https://github.com/user-attachments/assets/ed0ec07e-3ea6-40b2-9ee4-1d43caf0d045" />
